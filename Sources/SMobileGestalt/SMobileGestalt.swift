@@ -8,7 +8,7 @@ public func SMGCopyAnswer(_ property: MobileGestaltKeyProtocol) -> CFTypeRef? {
     return MGCopyAnswer(property.rawValue as CFString)?.takeRetainedValue()
 }
 
-public func SMGCopyAnswerString(_ property: MobileGestaltKeyProtocol) -> String? {
+public func SMGCopyAnswerAsString(_ property: MobileGestaltKeyProtocol) -> String? {
     if let propertyList: CFTypeRef = SMGCopyAnswer(property) {
         switch propertyList {
         case let v as String:

@@ -36,7 +36,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -50,7 +50,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -64,7 +64,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -78,7 +78,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -92,7 +92,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -106,7 +106,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -120,7 +120,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -134,7 +134,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -148,7 +148,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -162,7 +162,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
@@ -176,7 +176,7 @@ struct ContentView: View {
                 HStack {
                     Text(key.rawValue)
                     Spacer()
-                    Text(SMGCopyAnswerString(key) ?? "nil")
+                    Text(SMGCopyAnswerAsString(key) ?? "nil")
                 }
             }
         } header: {
