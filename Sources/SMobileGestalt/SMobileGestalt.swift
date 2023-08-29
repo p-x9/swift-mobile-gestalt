@@ -18,21 +18,24 @@ public func SMGSetAnswer(question: MobileGestaltKeyProtocol, answer: CFTypeRef) 
 }
 
 public func SMGCopyAnswerAsString(_ property: MobileGestaltKeyProtocol) -> String? {
-    if let propertyList: CFTypeRef = SMGCopyAnswer(property) {
-        switch propertyList {
-        case let v as String:
-            return v
-        case let v as Bool:
-            return "\(v)"
-        case let v as NSNumber:
-            return "\(v)"
-        case let v as [Any]:
-            return "\(v)"
-        case let v as [String: Any]:
-            return "\(v)"
+    if let answer: CFTypeRef = SMGCopyAnswer(property) {
+        switch CFGetTypeID(answer) {
+        case CFBooleanGetTypeID():
+            if let v = answer as? Bool {
+                return "\(v)"
+            }
+        case CFNumberGetTypeID():
+            if let v = answer as? NSNumber {
+                return "\(v)"
+            }
+        case CFStringGetTypeID():
+            if let v = answer as? String {
+                return v
+            }
         default:
-            return "\(propertyList)"
+            break
         }
+        return answer.description
     }
     return nil
 }
