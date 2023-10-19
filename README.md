@@ -33,6 +33,13 @@ For example, the key to retrieve the device name set by the user is as follows.
 MobileGestaltKey.Identifying.userAssignedDeviceName
 ```
 
+#### Example
+```swift
+let chipId = SMGCopyAnswer(.device(.chipID))
+/* or */
+let chipId = SMGCopyAnswer(MobileGestaltKey.Device.chipID)
+```
+
 ### Sets answer for a given key
 
 ```swift
