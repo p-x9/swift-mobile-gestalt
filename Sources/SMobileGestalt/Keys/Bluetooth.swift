@@ -11,6 +11,6 @@ import Foundation
 extension MobileGestaltKey {
     // Bluetooth Information
     public enum Bluetooth: String, CaseIterable, MobileGestaltKeyProtocol {
-        case bluetoothAddress = "BluetoothAddress"
+        case address = "BluetoothAddress"
     }
 }

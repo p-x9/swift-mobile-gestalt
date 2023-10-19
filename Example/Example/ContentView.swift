@@ -130,7 +130,7 @@ struct ContentView: View {
 
     var regionalSection: some View {
         Section {
-            ForEach(MobileGestaltKey.RegionalBehaviour.allCases, id: \.self) { key in
+            ForEach(MobileGestaltKey.RegionalBehavior.allCases, id: \.self) { key in
                 HStack {
                     Text(key.rawValue)
                     Spacer()

@@ -8,6 +8,10 @@ public func SMGCopyAnswer(_ property: MobileGestaltKeyProtocol) -> CFTypeRef? {
     return MGCopyAnswer(property.rawValue as CFString)?.takeRetainedValue()
 }
 
+public func SMGCopyAnswer(_ property: MobileGestaltKey) -> CFTypeRef? {
+    SMGCopyAnswer(property as any MobileGestaltKeyProtocol)
+}
+
 @discardableResult
 public func SMGSetAnswer(question: MobileGestaltKeyProtocol, answer: CFTypeRef) -> Int {
     let gestalt = dlopen("/usr/lib/libMobileGestalt.dylib", RTLD_GLOBAL | RTLD_LAZY)
@@ -15,6 +19,11 @@ public func SMGSetAnswer(question: MobileGestaltKeyProtocol, answer: CFTypeRef) 
     let MGSetAnswer = unsafeBitCast(dlsym(gestalt, "MGSetAnswer"), to: MGSetAnswerFunc.self)
 
     return MGSetAnswer(question.rawValue as CFString, answer)
+}
+
+@discardableResult
+public func SMGSetAnswer(question: MobileGestaltKey, answer: CFTypeRef) -> Int {
+    SMGSetAnswer(question: question as MobileGestaltKeyProtocol, answer: answer)
 }
 
 public func SMGCopyAnswerAsString(_ property: MobileGestaltKeyProtocol) -> String? {
@@ -38,4 +47,8 @@ public func SMGCopyAnswerAsString(_ property: MobileGestaltKeyProtocol) -> Strin
         return answer.description
     }
     return nil
+}
+
+public func SMGCopyAnswerAsString(_ property: MobileGestaltKey) -> String? {
+    SMGCopyAnswerAsString(property as MobileGestaltKeyProtocol)
 }

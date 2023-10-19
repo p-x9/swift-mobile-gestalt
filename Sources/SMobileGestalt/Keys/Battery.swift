@@ -12,9 +12,9 @@ extension MobileGestaltKey {
     // Battery Information
     public enum Battery: String, CaseIterable, MobileGestaltKeyProtocol {
         case requiredBatteryLevelForSoftwareUpdate = "RequiredBatteryLevelForSoftwareUpdate"
-        case batteryIsFullyCharged = "BatteryIsFullyCharged"
-        case batteryIsCharging = "BatteryIsCharging"
-        case batteryCurrentCapacity = "BatteryCurrentCapacity"
+        case isFullyCharged = "BatteryIsFullyCharged"
+        case isCharging = "BatteryIsCharging"
+        case currentCapacity = "BatteryCurrentCapacity"
         case externalPowerSourceConnected = "ExternalPowerSourceConnected"
     }
 }
