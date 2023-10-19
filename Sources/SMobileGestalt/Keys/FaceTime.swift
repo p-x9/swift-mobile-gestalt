@@ -11,14 +11,14 @@ import Foundation
 extension MobileGestaltKey {
     // FaceTime Information
     public enum FaceTime: String, CaseIterable, MobileGestaltKeyProtocol {
-        case faceTimeBitRate2G = "FaceTimeBitRate2G"
-        case faceTimeBitRate3G = "FaceTimeBitRate3G"
-        case faceTimeBitRateLTE = "FaceTimeBitRateLTE"
-        case faceTimeBitRateWiFi = "FaceTimeBitRateWiFi"
-        case faceTimeDecodings = "FaceTimeDecodings"
-        case faceTimeEncodings = "FaceTimeEncodings"
-        case faceTimePreferredDecoding = "FaceTimePreferredDecoding"
-        case faceTimePreferredEncoding = "FaceTimePreferredEncoding"
+        case bitRate2G = "FaceTimeBitRate2G"
+        case bitRate3G = "FaceTimeBitRate3G"
+        case bitRateLTE = "FaceTimeBitRateLTE"
+        case bitRateWiFi = "FaceTimeBitRateWiFi"
+        case decodings = "FaceTimeDecodings"
+        case encodings = "FaceTimeEncodings"
+        case preferredDecoding = "FaceTimePreferredDecoding"
+        case preferredEncoding = "FaceTimePreferredEncoding"
     }
 
 }

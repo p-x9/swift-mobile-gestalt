@@ -11,11 +11,11 @@ import Foundation
 extension MobileGestaltKey {
     // Baseband Information
     public enum Baseband: String, CaseIterable, MobileGestaltKeyProtocol {
-        case basebandSerialNumber = "BasebandSerialNumber"
-        case basebandCertId = "BasebandCertId"
-        case basebandChipId = "BasebandChipId"
-        case basebandFirmwareManifestData = "BasebandFirmwareManifestData"
-        case basebandFirmwareVersion = "BasebandFirmwareVersion"
-        case basebandKeyHashInformation = "BasebandKeyHashInformation"
+        case serialNumber = "BasebandSerialNumber"
+        case certId = "BasebandCertId"
+        case chipId = "BasebandChipId"
+        case firmwareManifestData = "BasebandFirmwareManifestData"
+        case firmwareVersion = "BasebandFirmwareVersion"
+        case keyHashInformation = "BasebandKeyHashInformation"
     }
 }
