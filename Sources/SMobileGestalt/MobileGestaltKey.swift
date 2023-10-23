@@ -9,17 +9,31 @@
 import Foundation
 
 public enum MobileGestaltKey {
-    case baseband(Baseband)
-    case battery(Battery)
-    case bluetooth(Bluetooth)
-    case capability(Capability)
     case device(Device)
-    case faceTime(FaceTime)
     case identifying(Identifying)
-    case moreDeviceCapability(MoreDeviceCapability)
-    case regionalBehavior(RegionalBehavior)
-    case telephony(Telephony)
+
+    case battery(Battery)
+    case camera(Camera)
+
     case wireless(Wireless)
+    case bluetooth(Bluetooth)
+
+    case baseband(Baseband)
+    case telephony(Telephony)
+
+    case software(Software)
+
+    case media(Media)
+
+    case capability(Capability)
+    case moreDeviceCapability(MoreDeviceCapability)
+
+    case regionalBehavior(RegionalBehavior)
+
+    case watchSupport(WatchSupport)
+    case faceTime(FaceTime)
+
+    case other(Other)
 }
 
 public protocol MobileGestaltKeyProtocol {
@@ -32,13 +46,18 @@ extension MobileGestaltKey: MobileGestaltKeyProtocol {
         case let .baseband(v): return v.rawValue
         case let .battery(v): return v.rawValue
         case let .bluetooth(v): return v.rawValue
+        case let .camera(v): return v.rawValue
         case let .capability(v): return v.rawValue
         case let .device(v): return v.rawValue
         case let .faceTime(v): return v.rawValue
         case let .identifying(v): return v.rawValue
+        case let .media(v): return v.rawValue
         case let .moreDeviceCapability(v): return v.rawValue
+        case let .other(v): return v.rawValue
         case let .regionalBehavior(v): return v.rawValue
+        case let .software(v): return v.rawValue
         case let .telephony(v): return v.rawValue
+        case let .watchSupport(v): return v.rawValue
         case let .wireless(v): return v.rawValue
         }
     }
