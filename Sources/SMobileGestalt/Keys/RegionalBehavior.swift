@@ -11,16 +11,17 @@ import Foundation
 extension MobileGestaltKey {
     // Regional Behavior
     public enum RegionalBehavior: String, CaseIterable, MobileGestaltKeyProtocol {
-        case all = "RegionalBehaviorAll"
-        case ChinaBrick = "RegionalBehaviorChinaBrick"
-        case EUVolumeLimit = "RegionalBehaviorEUVolumeLimit"
-        case GB18030 = "RegionalBehaviorGB18030"
-        case GoogleMail = "RegionalBehaviorGoogleMail"
-        case NTSC = "RegionalBehaviorNTSC"
-        case noPasscodeLocationTiles = "RegionalBehaviorNoPasscodeLocationTiles"
         case noVOIP = "RegionalBehaviorNoVOIP"
-        case noWiFi = "RegionalBehaviorNoWiFi"
+        case noPasscodeLocationTiles = "RegionalBehaviorNoPasscodeLocationTiles"
+        case GB18030 = "RegionalBehaviorGB18030"
+        case googleMail = "RegionalBehaviorGoogleMail"
         case shutterClick = "RegionalBehaviorShutterClick"
+        case chinaBrick = "RegionalBehaviorChinaBrick"
+        case noWiFi = "RegionalBehaviorNoWiFi"
+        case NTSC = "RegionalBehaviorNTSC"
+        case all = "RegionalBehaviorAll"
+        case valid = "RegionalBehaviorValid"
+        case euVolumeLimit = "RegionalBehaviorEUVolumeLimit"
         case volumeLimit = "RegionalBehaviorVolumeLimit"
     }
 }
