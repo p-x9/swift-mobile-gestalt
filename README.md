@@ -48,6 +48,10 @@ let chipId = SMGCopyAnswer(MobileGestaltKey.Device.chipID)
 SMGSetAnswer(key, "ANSWER")
 ```
 
+## Credits
+- [MGKeys](https://github.com/PoomSmart/MGKeys)
+  : List of decoded `MobileGestalt keys
+
 
 ## License
 SMobileGestalt is released under the MIT License. See [LICENSE](./LICENSE)
