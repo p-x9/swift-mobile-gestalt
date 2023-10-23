@@ -50,7 +50,7 @@ SMGSetAnswer(key, "ANSWER")
 
 ## Credits
 - [MGKeys](https://github.com/PoomSmart/MGKeys)
-  : List of decoded `MobileGestalt keys
+  : List of decoded `MobileGestalt` keys
 
 
 ## License
