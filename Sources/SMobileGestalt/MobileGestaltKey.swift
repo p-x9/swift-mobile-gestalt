@@ -62,3 +62,33 @@ extension MobileGestaltKey: MobileGestaltKeyProtocol {
         }
     }
 }
+
+extension CaseIterable where Self: MobileGestaltKeyProtocol {
+    static var allKeys: [any MobileGestaltKeyProtocol] {
+        Array(allCases)
+    }
+}
+extension MobileGestaltKey {
+    public static var allKeys: [any MobileGestaltKeyProtocol] {
+        Device.allKeys +
+        Identifying.allKeys +
+        Battery.allKeys +
+        Camera.allKeys +
+        Wireless.allKeys +
+        Bluetooth.allKeys +
+        Baseband.allKeys +
+        Telephony.allKeys +
+        Software.allKeys +
+        Media.allKeys +
+        Capability.allKeys +
+        MoreDeviceCapability.allKeys +
+        RegionalBehavior.allKeys +
+        WatchSupport.allKeys +
+        FaceTime.allKeys +
+        Other.allKeys
+    }
+
+    public static var allKeyStrings: [String] {
+        allKeys.map(\.rawValue)
+    }
+}
