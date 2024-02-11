@@ -17,6 +17,7 @@ extension MobileGestaltKey {
         case encodeAac = "encode-aac"
         case hdVideoCapture = "hd-video-capture"
         case hdrImageCapture = "hdr-image-capture"
+        case livePhotoCapture = "live-photo-capture"
         case photoAdjustments = "photo-adjustments"
         case photoStream = "photo-stream"
         case maxH264PlaybackLevel = "MaxH264PlaybackLevel"
