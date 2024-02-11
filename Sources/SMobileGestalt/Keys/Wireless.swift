@@ -13,6 +13,7 @@ extension MobileGestaltKey {
     public enum Wireless: String, CaseIterable, MobileGestaltKeyProtocol {
         case wifiFirmwareVersion = "WifiFirmwareVersion"
         case wifiAntennaSKUVersion = "WifiAntennaSKUVersion"
+        case wifiAntennaSkuInfo = "wifi-antenna-sku-info"
         case wlan = "wlan"
         case wiFi = "wi-fi"
         case wapi = "wapi"
@@ -35,6 +36,12 @@ extension MobileGestaltKey {
         case secondaryEthernetMacAddressData = "SecondaryEthernetMacAddressData"
         case wifiVendor = "WifiVendor"
         case wifiChipset = "WifiChipset"
+        case _wifiChipset = "wifi-chipset"
         case voip = "voip"
+        case bitrateWifi = "bitrate-wifi"
+        case bitrate2g = "bitrate-2g"
+        case bitrate3g = "bitrate-3g"
+        case bitrateLte = "bitrate-lte"
+        case wlanBackgroundScanCache = "wlan.background-scan-cache"
     }
 }

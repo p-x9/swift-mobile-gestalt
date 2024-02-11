@@ -16,9 +16,11 @@ extension MobileGestaltKey {
         case VMUniqueDeviceIDData = "VMUniqueDeviceIDData"
 
         case uniqueChipID = "UniqueChipID"
+        case uniqueChipId = "unique-chip-id"
         case uniqueChipIDString = "UniqueChipIDString"
         case arrowUniqueChipID = "ArrowUniqueChipID"
         case NFCUniqueChipID = "NFCUniqueChipID"
+        case euiccChipId = "euicc-chip-id"
 
         case nandControllerUID = "NandControllerUID"
         case yonkersUID = "YonkersUID"

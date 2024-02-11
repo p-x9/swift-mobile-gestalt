@@ -16,6 +16,7 @@ extension MobileGestaltKey {
         case certId = "BasebandCertId"
         case chipId = "BasebandChipId"
         case chipset = "BasebandChipset"
+        case _chipset = "baseband-chipset"
         case `class` = "BasebandClass"
         case firmwareManifestData = "BasebandFirmwareManifestData"
         case firmwareUpdateInfo = "BasebandFirmwareUpdateInfo"

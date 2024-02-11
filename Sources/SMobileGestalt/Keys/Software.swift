@@ -15,6 +15,7 @@ extension MobileGestaltKey {
         case software_dimming_alpha = "software-dimming-alpha"
         case softwareBehavior = "SoftwareBehavior"
         case softwareBundleVersion = "SoftwareBundleVersion"
+        case _softwareBundleVersion = "software-bundle-version"
 
         case buildVersion = "BuildVersion"
         case supplementalBuildVersion = "SupplementalBuildVersion"
@@ -28,6 +29,7 @@ extension MobileGestaltKey {
         case internationalMobileEquipmentIdentity2 = "InternationalMobileEquipmentIdentity2"
 
         case firmwareVersion = "FirmwareVersion"
+        case _firmwareVersion = "firmware-version"
         case firmwareNonce = "FirmwareNonce"
         case firmwarePreflightInfo = "FirmwarePreflightInfo"
 
@@ -46,8 +48,10 @@ extension MobileGestaltKey {
         case SEPNonce = "SEPNonce"
         case apNonce = "ApNonce"
         case bootNonce = "BootNonce"
+        case _bootNonce = "boot-nonce"
 
         case bootManifestHash = "BootManifestHash"
+        case _bootManifestHash = "boot-manifest-hash"
 
         case gamekit = "gamekit"
         case arkit = "arkit"

@@ -138,6 +138,14 @@ extension MobileGestaltKey {
         case deviceSupportsNavigation = "DeviceSupportsNavigation"
         case deviceSupportsCyclingAutoStartReminders = "DeviceSupportsCyclingAutoStartReminders"
         case deviceSupportsSpatialFaceTimeAudioPlayback = "DeviceSupportsSpatialFaceTimeAudioPlayback"
+        case deviceSupportsTwilight = "DeviceSupportsTwilight"
+        case deviceSupports80ChargeLimit = "DeviceSupports80ChargeLimit"
+        case deviceSupportsIndependentOutputOnSpeaker = "DeviceSupportsIndependentOutputOnSpeaker"
+        case deviceSupportsEUCapabilities = "DeviceSupportsEUCapabilities"
+        case deviceSupportsWirelessChargingEnergyUseNotification = "DeviceSupportsWirelessChargingEnergyUseNotification"
+        case deviceSupportsBatteryInformation = "DeviceSupportsBatteryInformation"
+        case deviceSupportsElton = "DeviceSupportsElton"
+        case deviceSupportsDynamicIsland = "DeviceSupportsDynamicIsland"
 
         case deviceSuportsExternalDriverKit = "DeviceSuportsExternalDriverKit"
 
@@ -153,13 +161,24 @@ extension MobileGestaltKey {
         case supportsTouchRemote = "SupportsTouchRemote"
         case supportsIrisCapture = "SupportsIrisCapture"
         case supportsRotateToWake = "SupportsRotateToWake"
+        case supportsAlwaysListening = "supports-always-listening"
+
+        case nikeSupport = "nike-support"
+        case sikaSupport = "sika-support"
+        case sandmanSupport = "sandman-support"
+        case faceDetectionSupport = "face-detection-support"
 
         case lowPowerExpressModesSupported = "LowPowerExpressModesSupported"
         case blueLightReductionSupported = "BlueLightReductionSupported"
         case image4Supported = "Image4Supported"
+        case _image4Supported = "image4-supported"
+
+        case iap2ProtocolSupported = "iap2-protocol-supported"
 
         case highestSupportedVideoMode = "HighestSupportedVideoMode"
         
         case hardwareSupportsSecureDoubleClick = "HardwareSupportsSecureDoubleClick"
+
+        case doesNotSupportGamekit = "does-not-support-gamekit"
     }
 }

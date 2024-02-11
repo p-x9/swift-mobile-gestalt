@@ -16,6 +16,7 @@ extension MobileGestaltKey {
         case gyroscopeCapability = "GyroscopeCapability"
         case accelerometerCapability = "AccelerometerCapability"
         case GPSCapability = "GPSCapability"
+        case gpsCapable = "gps-capable"
         case rearALSCapability = "RearALSCapability"
         case deviceProximityCapability = "DeviceProximityCapability"
         case multiTouchCapability = "MultiTouchCapability"
@@ -23,6 +24,7 @@ extension MobileGestaltKey {
 
         // MARK: - Actuator
         case volumeButtonCapability = "VolumeButtonCapability"
+        case ringerButtonCapability = "RingerButtonCapability"
         case watchAppButtonCapability = "WatchAppButtonCapability"
         case vibratorCapability = "VibratorCapability"
         case wirelessChargingCapability = "WirelessChargingCapability"
@@ -79,6 +81,9 @@ extension MobileGestaltKey {
         case frontFacingCameraBurstCapability = "FrontFacingCameraBurstCapability"
         case frontFacingCameraHFRCapability = "FrontFacingCameraHFRCapability"
         case rearFacingCameraHFRCapability = "RearFacingCameraHFRCapability"
+
+        case frontFlashCapability = "front-flash-capability"
+        case rearCamTelephotoCapability = "rear-cam-telephoto-capability"
 
         // HDR
         case cameraHDR2Capability = "CameraHDR2Capability"
@@ -142,6 +147,7 @@ extension MobileGestaltKey {
 
         case timeSyncCapability = "TimeSyncCapability"
         case pipelinedStillImageProcessingCapability = "PipelinedStillImageProcessingCapability"
+        case pipelinedStillImageCapability = "pipelined-stillimage-capability"
         case coastlineGlowRenderingCapability = "CoastlineGlowRenderingCapability"
         case PTPLargeFilesCapability = "PTPLargeFilesCapability"
         case videoStillsCapability = "VideoStillsCapability"

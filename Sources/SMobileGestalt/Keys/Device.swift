@@ -14,6 +14,7 @@ extension MobileGestaltKey {
         // MARK: - Device Model
         case modelNumber = "ModelNumber"
         case regulatoryModelNumber = "RegulatoryModelNumber"
+        case _regulatoryModelNumber = "regulatory-model-number"
         case targetSubType = "TargetSubType"
         case HWModelStr = "HWModelStr"
 
@@ -34,6 +35,7 @@ extension MobileGestaltKey {
 
         // MARK: - Device Class
         case deviceClass = "DeviceClass"
+        case `class` = "class"
         case deviceClassNumber = "DeviceClassNumber"
         case deviceVariant = "DeviceVariant"
         case deviceVariantGuess = "DeviceVariantGuess"
@@ -55,6 +57,7 @@ extension MobileGestaltKey {
 
         // MARK: - Chip
         case chipID = "ChipID"
+        case chipId = "chip-id"
         case arrowChipID = "ArrowChipID"
         case EUICCChipID = "EUICCChipID"
         case roswellChipID = "RoswellChipID"
@@ -63,8 +66,10 @@ extension MobileGestaltKey {
         case topModuleAuthChipID = "TopModuleAuthChipID"
         case wiFiChipsetRevision = "WiFiChipsetRevision"
         case boardId = "BoardId"
+        case _boardId = "board-id"
         case boardRevision = "BoardRevision"
         case debugBoardRevision = "DebugBoardRevision"
+        case _debugBoardRevision = "debug-board-revision"
         case wirelessBoardSnum = "WirelessBoardSnum"
         case siliconBringupBoard = "SiliconBringupBoard"
         case integratedCircuitCardIdentifier2 = "IntegratedCircuitCardIdentifier2"
@@ -79,6 +84,7 @@ extension MobileGestaltKey {
         case wifi = "wifi"
         case gps = "gps"
         case nfc = "nfc"
+        case nfcWithRadio = "nfcWithRadio"
         case lidarScanner = "lidar-scanner"
         case haptics = "haptics"
         case piezoClicker = "piezo-clicker"
@@ -86,10 +92,14 @@ extension MobileGestaltKey {
         case accelerometer = "accelerometer"
         case gyroscope = "gyroscope"
         case proximitySensor = "proximity-sensor"
+        case proxSensor = "prox-sensor"
         case ambientLightSensor = "ambient-light-sensor"
         case hallEffectSensor = "hall-effect-sensor"
         case hardwareKeyboard = "hardware-keyboard"
         case homeButtonType = "HomeButtonType"
+        case opposedPowerVolButtons = "opposed-power-vol-buttons"
+        case functionButton_ringerab = "function-button_ringerab"
+        case fastSwitchOptions = "fast-switch-options"
 
         // MARK: - iPod & iPad
         case nikeIpod = "nike-ipod"
@@ -108,6 +118,7 @@ extension MobileGestaltKey {
 
         // MARK: - Device Color & Material
         case deviceColor = "DeviceColor"
+        case deviceColors = "device-colors"
         case deviceRGBColor = "DeviceRGBColor"
         case deviceCoverGlassColor = "DeviceCoverGlassColor"
         case deviceCoverGlassMaterial = "DeviceCoverGlassMaterial"
@@ -148,6 +159,9 @@ extension MobileGestaltKey {
         case hasSEP = "HasSEP"
         case hasDaliMode = "HasDaliMode"
         case hasHighBandwidthRadio = "HasHighBandwidthRadio"
+        case hasSphere = "has-sphere"
+
+        case daliMode = "dali-mode"
 
         // MARK: - Screen
         case screenSerialNumber = "ScreenSerialNumber"
@@ -170,14 +184,17 @@ extension MobileGestaltKey {
         case hidpi = "hidpi"
         case mainDisplayRotation = "MainDisplayRotation"
         case airplayMirroring = "airplay-mirroring"
+        case airplayNoMirroring = "airplay-no-mirroring"
         case displayMirroring = "display-mirroring"
         case displayport = "displayport"
         case displayMaxNits = "DisplayMaxNits"
+        case displayRotation = "display-rotation"
         case displayBootRotation = "DisplayBootRotation"
         case displayInactiveBrightnessClass = "DisplayInactiveBrightnessClass"
         case displayDriverICChipID = "DisplayDriverICChipID"
         case availableDisplayZoomSizes = "AvailableDisplayZoomSizes"
         case alwaysOnDisplayMaxMemory = "AlwaysOnDisplayMaxMemory"
+        case thinBezel = "thin-bezel"
 
         // MARK: - Neural Engine
         case hasAppleNeuralEngine = "HasAppleNeuralEngine"
@@ -186,6 +203,7 @@ extension MobileGestaltKey {
         // MARK: - Touches
         case touchDelivery120Hz = "TouchDelivery120Hz"
         case multitouch = "multitouch"
+        case multiTouch = "multi-touch"
         case multiTouchMaxBootTime = "MultiTouchMaxBootTime"
 
         // MARK: - CPUArchitecture
@@ -225,6 +243,8 @@ extension MobileGestaltKey {
         case volumeDownButtonNormalizedCGRect = "VolumeDownButtonNormalizedCGRect"
         case volumeDownButtonCGRect = "VolumeDownButtonCGRect"
         case volumeUpButtonCGRect = "VolumeUpButtonCGRect"
+        case ringerButtonCGRect = "RingerButtonCGRect"
+        case ringerButtonNormalizedCGRect = "RingerButtonNormalizedCGRect"
 
         // MARK: - Mobile Equipment
         case internationalMobileEquipmentIdentity = "InternationalMobileEquipmentIdentity"
@@ -250,9 +270,11 @@ extension MobileGestaltKey {
         case greenTea = "green-tea"
         case notGreenTea = "not-green-tea"
         case peerPeer = "peer-peer"
+        case pressure = "pressure"
         case full6 = "full-6"
         case uiPip = "ui-pip"
         case personalHotspot = "personal-hotspot"
+        case platinum = "platinum"
 
         case aggregateDeviceVideoZoomFactor = "AggregateDeviceVideoZoomFactor"
         case aggregateDevicePhotoZoomFactor = "AggregateDevicePhotoZoomFactor"
@@ -263,6 +285,7 @@ extension MobileGestaltKey {
 
         case allowOnlyATVCPSDKApps = "AllowOnlyATVCPSDKApps"
         case allow32BitApps = "Allow32BitApps"
+        case allow32bitApps = "allow-32bit-apps"
 
         case deviceIsNED = "DeviceIsNED"
         case deviceHasNAN = "DeviceHasNAN"
@@ -277,6 +300,7 @@ extension MobileGestaltKey {
         case deviceCoprocessorIsT1 = "DeviceCoprocessorIsT1"
 
         case deviceMesaType = "DeviceMesaType"
+        case deviceColorPolicy = "device-color-policy"
         case deviceColorMapPolicy = "DeviceColorMapPolicy"
         case deviceIsMuseCapable = "DeviceIsMuseCapable"
         case deviceIsPortableMac = "DeviceIsPortableMac"
