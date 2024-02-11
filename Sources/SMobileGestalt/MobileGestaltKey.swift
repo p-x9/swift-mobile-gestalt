@@ -34,6 +34,7 @@ public enum MobileGestaltKey {
     case faceTime(FaceTime)
 
     case other(Other)
+    case custom(String)
 }
 
 public protocol MobileGestaltKeyProtocol {
@@ -59,6 +60,7 @@ extension MobileGestaltKey: MobileGestaltKeyProtocol {
         case let .telephony(v): return v.rawValue
         case let .watchSupport(v): return v.rawValue
         case let .wireless(v): return v.rawValue
+        case let .custom(v): return v
         }
     }
 }
