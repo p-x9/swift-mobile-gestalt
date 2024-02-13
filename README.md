@@ -1,4 +1,4 @@
-# SMobileGestalt
+# SwiftMobileGestalt
 
 `MobileGestalt` wrapper for Swift.
 MobileGestalt can be used to retrieve a variety of device and OS information.
@@ -16,7 +16,7 @@ MobileGestalt can be used to retrieve a variety of device and OS information.
 ## Usage
 ### import
 ```swift
-import SMobileGestalt
+import SwiftMobileGestalt
 ```
 
 ### Obtains the value for a given key
@@ -54,4 +54,4 @@ SMGSetAnswer(key, "ANSWER")
 
 
 ## License
-SMobileGestalt is released under the MIT License. See [LICENSE](./LICENSE)
+SwiftMobileGestalt is released under the MIT License. See [LICENSE](./LICENSE)

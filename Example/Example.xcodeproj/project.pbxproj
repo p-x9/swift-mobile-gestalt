@@ -14,7 +14,7 @@
 		42857EF12A9B764F009CC5AB /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42857EF02A9B764F009CC5AB /* ExampleTests.swift */; };
 		42857EFB2A9B764F009CC5AB /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42857EFA2A9B764F009CC5AB /* ExampleUITests.swift */; };
 		42857EFD2A9B764F009CC5AB /* ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42857EFC2A9B764F009CC5AB /* ExampleUITestsLaunchTests.swift */; };
-		42857F0E2A9B76A8009CC5AB /* SMobileGestalt in Frameworks */ = {isa = PBXBuildFile; productRef = 42857F0D2A9B76A8009CC5AB /* SMobileGestalt */; };
+		42857F0E2A9B76A8009CC5AB /* SwiftMobileGestalt in Frameworks */ = {isa = PBXBuildFile; productRef = 42857F0D2A9B76A8009CC5AB /* SwiftMobileGestalt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		42857EF62A9B764F009CC5AB /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42857EFA2A9B764F009CC5AB /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		42857EFC2A9B764F009CC5AB /* ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		42857F0A2A9B7699009CC5AB /* SMobileGestalt */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SMobileGestalt; path = ..; sourceTree = "<group>"; };
+		42857F0A2A9B7699009CC5AB /* SwiftMobileGestalt */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftMobileGestalt; path = ..; sourceTree = "<group>"; };
 		42857F0B2A9B76A1009CC5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42857F0E2A9B76A8009CC5AB /* SMobileGestalt in Frameworks */,
+				42857F0E2A9B76A8009CC5AB /* SwiftMobileGestalt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 		42857F092A9B7699009CC5AB /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				42857F0A2A9B7699009CC5AB /* SMobileGestalt */,
+				42857F0A2A9B7699009CC5AB /* SwiftMobileGestalt */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				42857F0D2A9B76A8009CC5AB /* SMobileGestalt */,
+				42857F0D2A9B76A8009CC5AB /* SwiftMobileGestalt */,
 			);
 			productName = Example;
 			productReference = 42857EDB2A9B764B009CC5AB /* Example.app */;
@@ -641,9 +641,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		42857F0D2A9B76A8009CC5AB /* SMobileGestalt */ = {
+		42857F0D2A9B76A8009CC5AB /* SwiftMobileGestalt */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SMobileGestalt;
+			productName = SwiftMobileGestalt;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

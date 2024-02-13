@@ -3,22 +3,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "SMobileGestalt",
+    name: "SwiftMobileGestalt",
     products: [
         .library(
-            name: "SMobileGestalt",
-            targets: ["SMobileGestalt"]
+            name: "SwiftMobileGestalt",
+            targets: ["SwiftMobileGestalt"]
         ),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "SMobileGestalt",
+            name: "SwiftMobileGestalt",
             dependencies: []
         ),
         .testTarget(
-            name: "SMobileGestaltTests",
-            dependencies: ["SMobileGestalt"]
+            name: "SwiftMobileGestaltTests",
+            dependencies: ["SwiftMobileGestalt"]
         ),
     ]
 )

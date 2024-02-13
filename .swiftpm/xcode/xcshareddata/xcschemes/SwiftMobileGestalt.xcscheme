@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SMobileGestalt"
-               BuildableName = "SMobileGestalt"
-               BlueprintName = "SMobileGestalt"
+               BlueprintIdentifier = "SwiftMobileGestalt"
+               BuildableName = "SwiftMobileGestalt"
+               BlueprintName = "SwiftMobileGestalt"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SMobileGestaltTests"
-               BuildableName = "SMobileGestaltTests"
-               BlueprintName = "SMobileGestaltTests"
+               BlueprintIdentifier = "SwiftMobileGestaltTests"
+               BuildableName = "SwiftMobileGestaltTests"
+               BlueprintName = "SwiftMobileGestaltTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SMobileGestaltTests"
-               BuildableName = "SMobileGestaltTests"
-               BlueprintName = "SMobileGestaltTests"
+               BlueprintIdentifier = "SwiftMobileGestaltTests"
+               BuildableName = "SwiftMobileGestaltTests"
+               BlueprintName = "SwiftMobileGestaltTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SMobileGestalt"
-            BuildableName = "SMobileGestalt"
-            BlueprintName = "SMobileGestalt"
+            BlueprintIdentifier = "SwiftMobileGestalt"
+            BuildableName = "SwiftMobileGestalt"
+            BlueprintName = "SwiftMobileGestalt"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
